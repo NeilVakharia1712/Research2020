@@ -1,0 +1,28 @@
+Exercise 1.6
+
+Exercise 1.6.1
+Show that (0, 1) is uncountable if and only if R is uncountable.
+
+Exercise 1.6.2. 
+(a) Explain why the real number x = .b1b2b3b4 . . . cannot be f(1).(b) Now, explain why x /= f(2), and in general why x /= f(n) for any n ∈ N.(c) conclude that (0, 1) is uncountable.
+
+Exercise 1.6.3. Supply rebuttals to the following complaints about the proof of Theorem 1.6.1.(a) Every rational number has a decimal expansion, so we could apply thissame argument to show that the set of rational numbers between 0 and 1is uncountable. However, because we know that any subset of Q must becountable, the proof of Theorem 1.6.1 must be flawed.(b) Some numbers have two different decimal representations. Specifically,any decimal expansion that terminates can also be written with repeating9’s. For instance, 1/2 can be written as .5 or as .4999 . . . . Doesn’t thiscause some problems?
+
+Exercise 1.6.4. 
+Let S be the set consisting of all sequences of 0’s and 1’s. Observe that S is not a particular sequence, but rather a large set whose elements are sequences; namely, S = {(a1, a2, a3, . . .) : an = 0 or 1}. As an example, the sequence (1, 0, 1, 0, 1, 0, 1, 0, . . .) is an element of S, as is the sequence (1, 1, 1, 1, 1, 1, . . .). Give a rigorous argument showing that S is uncountable. Having distinguished between the countable infinity of N and the uncountable infinity of R, a new question that occupied Cantor was whether or not there existed an infinity “above” that of R. This is logically treacherous territory. The same care we gave to defining the relationship “has the same cardinality as” needs to be given to defining relationships such as “has cardinality greater than” or “has cardinality less than or equal to.” Nevertheless, without getting too weighed down with formal definitions, one gets a very clear sense from the next result that there
+
+Exercise 1.6.5. 
+(a) Let A = {a, b, c}. List the eight elements of P(A). (Do not forget that ∅ is considered to be a subset of every set.)
+
+Exercise 1.6.6. 
+(a) Using the particular set A = {a, b, c}, exhibit two different 1–1 mappings from A into P(A).(b) Letting C = {1, 2, 3, 4}, produce an example of a 1–1 map g : C → P(C).(c) Explain why it is impossible to construct 1-1 mapping to power sets that are onto.
+
+Exercise 1.6.7. Return to the particular functions constructed in Exercise 1.6.6 and construct the subset B that results using the preceding rule. In each case, note that B is not in the range of the function used. We now focus on the general argument. Because we have assumed that our function f : A → P(A) is onto, it must be that B = f(a') for some a' ∈ A. The contradiction arises when we consider whether or not a is an element of B.
+Exercise 1.6.8. 
+(a) First, show that the case a' ∈ B leads to a contradiction.(b) Now, finish the argument by showing that the case a /∈ B is equally unacceptable
+
+Exercise 1.6.9
+give a compelling argument showing that P(N) ∼ R.
+
+Exercise 1.6.10. 
+As a final exercise, answer each of the following by establishing a 1–1 correspondence with a set of known cardinality.(a) Is the set of all functions from {0, 1} to N countable or uncountable?(b) Is the set of all functions from N to {0, 1} countable or uncountable?(c) Given a set B, a subset A of P(B) is called an antichain if no element of A is a subset of any other element of A. Does P(N) contain an uncountable antichain?

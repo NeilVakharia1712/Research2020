@@ -1,0 +1,120 @@
+What is the difference between a host and an end system? List several different types of end
+systems. Is a Web server an end system?
+
+The word protocol is often used to describe diplomatic relations. How does Wikipedia
+describe diplomatic protocol?
+
+Why are standards important for protocols?
+
+List six access technologies. Classify each one as home access, enterprise access, or widearea
+wireless access.
+
+Is HFC transmission rate dedicated or shared among users? Are collisions possible in a
+downstream HFC channel? Why or why not?
+
+List the available residential access technologies in your city. For each type of access,
+provide the advertised downstream rate, upstream rate, and monthly price.
+
+What is the transmission rate of Ethernet LANs?
+
+What are some of the physical media that Ethernet can run over?
+
+Dial-up modems, HFC, DSL and FTTH are all used for residential access. For each of these
+access technologies, provide a range of transmission
+rates and comment on whether the
+transmission rate is shared or dedicated.
+
+Describe the most popular wireless Internet access technologies today. Compare
+and contrast them.
+
+Suppose there is exactly one packet switch between a sending host and a receiving host.
+The transmission rates between the sending host and the switch and between the switch and the
+receiving host are R and R , respectively. Assuming that the switch uses store-and-forward
+packet switching, what is the total end-to-end delay to send a packet of length L? (Ignore
+queuing, propagation delay, and processing delay.)
+
+What advantage does a circuit-switched network have over a packet-switched network?
+
+What advantages does TDM have over FDM in a circuit-switched network?
+
+Suppose users share a 2 Mbps link. Also suppose each user transmits continuously at 1
+Mbps when transmitting, but each user transmits only 20 percent of the time. (See the
+discussion of statistical multiplexing in Section 1.3 .)
+
+When circuit switching is used, how many users can be supported?
+
+For the remainder of this problem, suppose packet switching is used. Why will there be
+essentially no queuing delay before the link if two or fewer users transmit at the same
+time? Why will there be a queuing delay if three users transmit at the same time?
+
+Find the probability that a given user is transmitting.
+
+Suppose now there are three users. Find the probability that at any given time, all three
+users are transmitting simultaneously. Find the fraction of time during which the queue
+grows.
+
+Why will two ISPs at the same level of the hierarchy often peer with each other? How does
+an IXP earn money?
+
+Some content providers have created their own networks. Describe Google’s network.
+What motivates content providers to create these networks?
+
+Consider sending a packet from a source host to a destination host over a fixed route. List
+the delay components in the end-to-end delay. Which of these delays are constant and which
+are variable?
+
+Visit the Transmission Versus Propagation Delay applet at the companion Web site.
+Among the rates, propagation delay, and packet sizes available, find a combination for which the
+sender finishes transmitting before the first bit of the packet reaches the receiver. Find another
+combination for which the first bit of the packet reaches the receiver before the sender finishes
+transmitting.
+
+How long does it take a packet of length 1,000 bytes to propagate over a link of distance
+2,500 km, propagation speed m/s, and transmission rate 2 Mbps? More generally, how
+long does it take a packet of length L to propagate over a link of distance d, propagation speed
+s, and transmission rate R bps? Does this delay depend on packet length? Does this delay
+depend on transmission rate?
+
+Suppose Host A wants to send a large file to Host B. The path from Host A to Host B has
+three links, of rates
+
+Assuming no other traffic in the network, what is the throughput for the file transfer?
+
+Suppose the file is 4 million bytes. Dividing the file size by the throughput, roughly how
+long will it take to transfer the file to Host B?
+
+Repeat (a) and (b), but now with R reduced to 100 kbps.
+
+Suppose end system A wants to send a large file to end system B. At a very high level,
+describe how end system A creates packets from the file. When one of these packets arrives to
+a router, what information in the packet does the router use to determine the link onto which the
+packet is forwarded? Why is packet switching in the Internet analogous to driving from one city
+to another and asking directions along the way?
+
+Visit the Queuing and Loss applet at the companion Web site. What is the maximum
+emission rate and the minimum transmission rate? With those rates, what is the traffic intensity?
+Run the applet with these rates and determine how long it takes for packet loss to occur. Then
+repeat the experiment a second time and determine again how long it takes for packet loss to
+occur. Are the values different? Why or why not?
+
+List five tasks that a layer can perform. Is it possible that one (or more) of these tasks could
+be performed by two (or more) layers?
+
+What are the five layers in the Internet protocol stack? What are the principal
+responsibilities of each of these layers?
+
+What is an application-layer message? A transport-layer segment? A network-layer
+datagram? A link-layer frame?
+
+Which layers in the Internet protocol stack does a router process? Which layers does a
+link-layer switch process? Which layers does a host process?
+
+What is the difference between a virus and a worm?
+
+Describe how a botnet can be created and how it can be used for a DDoS attack.
+
+Suppose Alice and Bob are sending packets to each other over a computer network.
+Suppose Trudy positions herself in the network so that she can capture all the packets sent by
+Alice and send whatever she wants to Bob; she can also capture all the packets sent by Bob and
+send whatever she wants to Alice. List some of the malicious things Trudy can do from this
+position.

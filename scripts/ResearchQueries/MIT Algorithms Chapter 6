@@ -1,0 +1,75 @@
+What are the minimum and maximum numbers of elements in a heap of height h?
+
+Show that an n-element heap has height [lg n].
+
+Show that in any subtree of a max-heap, the root of the subtree contains the largest
+value occurring anywhere in that subtree.
+
+Where in a max-heap might the smallest element reside, assuming that all elements
+are distinct?
+
+Is an array that is in sorted order a min-heap?
+
+Is the array with values [23,17,14,6,13,10,1,5,7,12] a max-heap?
+
+Show that, with the array representation for storing an n-element heap, the leaves
+are the nodes indexed by [n/2] + 1, [n/2] + 2, .... n
+
+Using Figure 6.2 as a model, illustrate the operation of MAX-HEAPIFY (A, 3) on the array A [27; 17; 3; 16; 13; 10; 1; 5; 7; 12; 4; 8; 9; 0].
+
+Starting with the procedure MAX-HEAPIFY, write pseudocode for the procedure MIN-HEAPIFY (A,i), which performs the corresponding manipulation on a minheap. How does the running time of MIN-HEAPIFY compare to that of MAXHEAPIFY?
+
+What is the effect of calling MAX-HEAPIFY (A, i) when the element A[i] is larger than its children?
+
+What is the effect of calling MAX-HEAPIFY (A,i) for i > A:heap-size/2?
+
+The code for MAX-HEAPIFY is quite efficient in terms of constant factors, except possibly for the recursive call in line 10, which might cause some compilers to produce inefficient code. Write an efficient MAX-HEAPIFY that uses an iterative control construct (a loop) instead of recursion.
+
+Show that the worst-case running time of MAX-HEAPIFY on a heap of size n is O(lg n)
+
+Using Figure 6.3 as a model, illustrate the operation of BUILD-MAX-HEAP on the array A = [5; 3; 17; 10; 84; 19; 6; 22; 9]
+
+Why do we want the loop index i in line 2 of BUILD-MAX-HEAP to decrease from (A.length/2) to 1 rather than increase from 1 to (A.length/2)
+
+Show that there are at most [n/(2^h+1)] nodes of height h in any n-element heap.
+
+Using Figure 6.4 as a model, illustrate the operation of HEAPSORT on the array A = [5; 13; 2; 25; 7; 17; 20; 8; 4].
+
+What is the running time of HEAPSORT on an array A of length n that is already sorted in increasing order? What about decreasing order?
+
+Show that the worst-case running time of HEAPSORT is O(nlogn)
+
+Illustrate the operation of HEAP-EXTRACT-MAX on the heap A  = [15; 13; 9; 5; 12; 8; 7; 4; 0; 6; 2; 1]
+
+Illustrate the operation of MAX-HEAP-INSERT (A, 10) on the heap A = [15; 13; 9;5;12; 8; 7; 4; 0; 6; 2; 1].
+
+Write pseudocode for the procedures HEAP-MINIMUM, HEAP-EXTRACT-MIN, HEAP-DECREASE-KEY, and MIN-HEAP-INSERT that implement a min-priority queue with a min-heap.
+
+Why do we bother setting the key of the inserted node to -inf in line 2 of MAXHEAP-INSERT when the next thing we do is increase its key to the desired value?
+
+Do the procedures BUILD-MAX-HEAP and BUILD-MAX-HEAP0 always create the same heap when run on the same input array? Prove that they do, or provide a counterexample.
+
+Show that in the worst case, BUILD-MAX-HEAP0 requires ‚.n lg n/ time to build an n-element heap.
+
+How would you represent a d-ary heap in an array?
+
+What is the height of a d-ary heap of n elements in terms of n and d?
+
+Give an efficient implementation of EXTRACT-MAX in a d-ary max-heap. Analyze its running time in terms of d and n.
+
+Give an efficient implementation of INSERT in a d-ary max-heap. Analyze its running time in terms of d and n.
+
+Draw a 4X4 Young tableau containing the elements [9; 16; 3; 2; 4; 8; 5; 14; 12]
+
+Argue that an m X n Young tableau Y is empty if Y[1,1] = inf. Argue that Y is full (contains mn elements) if Y[m,n] < inf.
+
+Show how to insert a new element into a nonfull m x n Young tableau in O(m+n) time
+
+Using no other sorting method as a subroutine, show how to use an n X n Young tableau to sort n^2 numbers in O(n^3) time.
+
+Give an O(m+n) time algorithm to determine whether a given number is stored in a given m X n Young tableau.
+
+
+
+
+

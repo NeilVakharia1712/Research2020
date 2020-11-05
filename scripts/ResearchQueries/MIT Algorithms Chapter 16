@@ -1,0 +1,100 @@
+Suppose that instead of always selecting the first activity to finish, we instead select
+the last activity to start that is compatible with all previously selected activities. Describe
+how this approach is a greedy algorithm, and prove that it yields an optimal
+solution
+
+Not just any greedy approach to the activity-selection problem produces a maximum-
+size set of mutually compatible activities. Give an example to show that
+the approach of selecting the activity of least duration from among those that are
+compatible with previously selected activities does not work. Do the same for
+the approaches of always selecting the compatible activity that overlaps the fewest
+other remaining activities and always selecting the compatible remaining activity
+with the earliest start time.
+
+Suppose that we have a set of activities to schedule among a large number of lecture
+halls, where any activity can take place in any lecture hall. We wish to schedule
+all the activities using as few lecture halls as possible. Give an efficient greedy
+algorithm to determine which activity should use which lecture hall.
+
+Consider a modification to the activity-selection problem in which each activity ai
+has, in addition to a start and finish time, a value v_i . The objective is no longer
+to maximize the number of activities scheduled, but instead to maximize the total
+value of the activities scheduled. That is, we wish to choose a set A of compatible
+activities such that sum v_k is maximized. Give a polynomial-time algorithm for
+this problem.
+
+Prove that the fractional knapsack problem has the greedy-choice property.
+
+Give a dynamic-programming solution to the 0-1 knapsack problem that runs in
+O(nW) time, where n is the number of items and W is the maximum weight of
+items that the thief can put in his knapsack.
+
+Suppose that in a 0-1 knapsack problem, the order of the items when sorted by
+increasing weight is the same as their order when sorted by decreasing value. Give
+an efficient algorithm to find an optimal solution to this variant of the knapsack
+problem, and argue that your algorithm is correct.
+
+Describe an efficient algorithm that, given a set {x1, x2 , x3 .... xn}of points on the
+real line, determines the smallest set of unit-length closed intervals that contains
+all of the given points. Argue that your algorithm is correct.
+
+Show how to solve the fractional knapsack problem in O(n) time.
+
+Prove that a binary tree that is not full cannot correspond to an optimal prefix code.
+
+What is an optimal Huffman code for the following set of frequencies, based on
+the first 8 Fibonacci numbers?
+
+Can you generalize your answer to find the optimal code when the frequencies are
+the first n Fibonacci numbers?
+
+Prove that we can also express the total cost of a tree for a code as the sum, over
+all internal nodes, of the combined frequencies of the two children of the node.
+
+Prove that if we order the characters in an alphabet so that their frequencies
+are monotonically decreasing, then there exists an optimal code whose codeword
+lengths are monotonically increasing.
+
+Generalize Huffman’s algorithm to ternary codewords (i.e., codewords using the
+symbols 0, 1, and 2), and prove that it yields optimal ternary codes.
+
+Suppose that a data file contains a sequence of 8-bit characters such that all 256
+characters are about equally common: the maximum character frequency is less
+than twice the minimum character frequency. Prove that Huffman coding in this
+case is no more efficient than using an ordinary 8-bit fixed-length code.
+
+Show that no compression scheme can expect to compress a file of randomly chosen
+8-bit characters by even a single bit. 
+
+Suppose that the available coins are in the denominations that are powers of c,
+i.e., the denominations are c0, c1, c2... ck for some integers c > 1 and k >= 1.
+Show that the greedy algorithm always yields an optimal solution
+
+Give a set of coin denominations for which the greedy algorithm does not yield
+an optimal solution. Your set should include a penny so that there is a solution
+for every value of n.
+
+Give an O(nk)-time algorithm that makes change for any set of k different coin
+denominations, assuming that one of the coins is a penny.
+
+Give an algorithm that schedules the tasks so as to minimize the average completion
+time. Each task must run non-preemptively, that is, once task ai starts, it
+must run continuously for pi units of time. Prove that your algorithm minimizes
+the average completion time, and state the running time of your algorithm.
+
+Suppose now that the tasks are not all available at once. That is, each task
+cannot start until its release time ri . Suppose also that we allow preemption, so
+that a task can be suspended and restarted at a later time. For example, a task ai
+with processing time pi D 6 and release time ri D 1 might start running at
+time 1 and be preempted at time 4. It might then resume at time 10 but be
+preempted at time 11, and it might finally resume at time 13 and complete at
+time 15. Task ai has run for a total of 6 time units, but its running time has been
+divided into three pieces. In this scenario, ai ’s completion time is 15. Give
+an algorithm that schedules the tasks so as to minimize the average completion
+time in this new scenario. Prove that your algorithm minimizes the average
+completion time, and state the running time of your algorithm.
+
+Show that the off-line caching problem exhibits optimal substructure
+
+Prove that furthest-in-future produces the minimum possible number of cache
+misses.

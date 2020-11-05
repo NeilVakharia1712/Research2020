@@ -1,0 +1,32 @@
+Exercise 2.6
+
+Exercise 2.6.1
+Prove every convergent sequence is a Cauchy sequence.
+
+Exercise 2.6.2
+Give an example of each of the following, or argue that such a request is impossible.A Cauchy sequence that is not monotone.A Cauchy sequence with an unbounded subsequence.A divergent monotone sequence with a Cauchy subsequence.
+An unbounded sequence containing a subsequence that is Cauchy.
+
+Exercise 2.6.3
+If xn and yn are Cauchy sequences. Give a direct argument that (xn +yn) is a Cauchy sequence that does not use the Cauchy Criterion or the Algebraic Limit Theorem.
+If xn and yn are Cauchy sequences. Give a direct argument that (xn * yn) is a Cauchy sequence that does not use the Cauchy Criterion or the Algebraic Limit Theorem.
+
+Exercise 2.6.4 
+If an and bn are Cauchy sequences. Is cn = |an − bn| Cauchy 
+If an and bn are Cauchy sequences. Is cn = ((−1)^(n)) * an Cauchy 
+If an and bn are Cauchy sequences. Is cn = [[an]] Cauchy 
+
+Exercise 2.6.5
+Are Pseudo-Cauchy sequences are bounded.
+If (xn) and (yn) are pseudo-Cauchy, then (xn + yn) is pseudo-Cauchy as well.
+
+Exercise 2.6.6
+Give an example of a sequence that is quasi-increasing but not monotone or eventually monotone.
+Give an example of a quasi-increasing sequence that is divergent and not monotone.
+Is there an analogue of the Monotone Convergence Theorem for quasiincreasing sequences? Give an example of a bounded, quasi-increasing sequence that doesn’t converge, or prove that no such sequence exists.
+
+Exercise 2.6.7
+
+Assume the Bolzano–Weierstrass Theorem is true and use it to construct a proof of the Monotone Convergence Theorem without making any appeal to the Archimedean Property. This shows that BW, AoC, and MCT are all equivalent.
+Use the Cauchy Criterion to prove the Bolzano–Weierstrass Theorem, and find the point in the argument where the Archimedean Property is implicitly required.
+How do we know it is impossible to prove the Axiom of Completeness starting from the Archimedean Property?

@@ -1,0 +1,48 @@
+Exercise 2.7
+
+Exercise 2.7.1
+Prove the Alternating Series Test by showing that (sn) the sequence of partial sum is a Cauchy sequence.
+Prove the Alternating Series Test by showing that (sn) the sequence of partial sum is a Cauchy sequence using the nested interval property. 
+Consider the subsequences (s(2n)) and (s(2n+1)), and show how the Monotone Convergence Theorem leads to a third proof for the Alternating Series Test.
+
+Exercise 2.7.2
+Decide whether the following series converges or diverges sum(1/((2^n) + n)) from n = 1 to infinity
+Decide whether the following series converges or diverges sum(sin(n)/n^2) from n = 1 to infinity
+Decide whether the following series converges or diverges 1 - (3/4) + (4/6) - (5/8) + (6/10) - (7/12) + .....
+Decide whether the following series converges or diverges 1 + (1/2) - (1/3) + (1/4) + (1/5) - (1/6) + (1/7) + (1/8) - (1/9).....
+Decide whether the following series converges or diverges 1 - (1/4) + (1/9) - (1/16) + (1/5) - (1/36) + (1/7) - (1/64)+ ...
+
+Exercise 2.7.3
+Provide the details for the proof of the Comparison Test using the Cauchy Criterion for Series.Give another proof for the Comparison Test, this time using the Monotone Convergence Theorem.
+
+Exercise 2.7.4
+
+Give an example of each or explain why the request is impossible referencing the proper theorem(s).Two series sum(xn) and sum(yn) that both diverge but where sum(xnyn) converges.A convergent series sum(xn) and a bounded sequence (yn) such that sum(xnyn)diverges.Two sequences (xn) and (yn) where sum(xn) and sum(xn +yn) both converge but sum(yn) diverges.A sequence (xn) satisfying 0 ≤ xn ≤ 1/n where sum(((−1)^n)xn) diverges.
+
+Exercise 2.7.5
+Prove that the series (1/n^p) converges if and only if p > 1
+
+Exercise 2.7.6
+If (an) is bounded, then sum(an) subverges.
+All convergent series are subvergent.
+If series(|an|) subverges, then series(an) subverges as well.
+If series(an) subverges, then (an) has a convergent subsequence.
+
+Exercise 2.7.7. 
+Show that if an > 0 and lim(n* an) = l with l = 0, then the series an diverges.
+Assume an > 0 and lim((n^2)*an) exists. Show that an converges.
+
+Exercise 2.7.8
+If an converges absolutely, then (a^2)n also converges absolutely
+If an converges and (bn) converges, then series(anbn) converges.
+If an converges conditionally, then n^2 * an diverges.
+
+Exercise 2.7.9
+Prove the ratio test
+
+Exercise 2.7.10
+Does (2/1)*(3/2)*(5/4)*(9/8)*(17/6)... converge
+The infinite product (1/2)*(3/4)*(5/6)*(7/8)*(9/10) certainly converges. (Why?) Does it converge to 0
+
+Exercise 2.7.11
+Find examples of two series an and bn both of which diverge but for which min{an, bn} converges. To make it more challenging, produce examples where (an) and (bn) are strictly positive and decreasing.

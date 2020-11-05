@@ -1,0 +1,38 @@
+Exercise 2.3
+
+Exercise 2.3.1. 
+Let xn ≥ 0 for all n ∈ N.(a) If (xn) → 0, show that (sqrt(xn)) → 0.(b) If (xn) → x, show that (sqrt(xn)) →sqrt(x).
+
+Exercise 2.3.2. 
+prove that if (xn) → 2, then(a)  2xn−1/3 -> 1;(b) (1/xn) → 1/2.
+
+Exercise 2.3.3 
+(Squeeze Theorem). Show that if xn ≤ yn ≤ zn for all n ∈ N, and if lim xn = lim zn = l, then lim yn = l as well.
+
+Exercise 2.3.4
+Let (an) → 0, and use the Algebraic Limit Theorem to computeeach of the following limits (assuming the fractions are always defined):(a) lim  (1+2an)/(1+3an−4(an)^2)(b) lim (an+2)2−4/an(c) lim ((2/an)+3)/((1/an)+5)
+
+Exercise 2.3.5
+Let (xn) and (yn) be given, and define (zn) to be the “shuffled” sequence (x1, y1, x2, y2, x3, y3, . . . , xn, yn, . . .). Prove that (zn) is convergent if and only if (xn) and (yn) are both convergent with lim xn = lim yn.
+
+Exercise 2.3.6. 
+Consider the sequence given by bn = n − sqrt(n^2 + 2n). Taking (1/n) → 0 as given, and using both the Algebraic Limit Theorem and the result in Exercise 2.3.1, show lim bn exists and find the value of the limit.
+
+Exercise 2.3.7. 
+Give an example of each of the following, or state that such a request is impossible by referencing the proper theorem(s):(a) sequences (xn) and (yn), which both diverge, but whose sum (xn + yn) converges;(b) sequences (xn) and (yn), where (xn) converges, (yn) diverges, and (xn+yn) converges;
+(c) a convergent sequence (bn) with bn /= 0 for all n such that (1/bn) diverges;(d) an unbounded sequence (an) and a convergent sequence (bn) with (an−bn) bounded;(e) two sequences (an) and (bn), where (anbn) and (an) converge but (bn) does not.
+
+Exercise 2.3.8. 
+Let (xn) → x and let p(x) be a polynomial.(a) Show p(xn) → p(x).(b) Find an example of a function f(x) and a convergent sequence (xn) → x where the sequence f(xn) converges, but not to f(x).
+
+Exercise 2.3.9. 
+(a) Let (an) be a bounded (not necessarily convergent) sequence, and assume lim bn = 0. Show that lim(anbn) = 0. Why are we not allowed to use the Algebraic Limit Theorem to prove this?(b) Can we conclude anything about the convergence of (anbn) if we assumethat (bn) converges to some nonzero limit b?(c) Use (a) to prove Theorem 2.3.3, part (iii), for the case when a = 0.
+
+Exercise 2.3.10. Consider the following list of conjectures. Provide a shortproof for those that are true and a counterexample for any that are false.(a) If lim(an − bn) = 0, then lim an = lim bn.(b) If (bn) → b, then |bn| → |b|.(c) If (an) → 0 and (bn − an) → 0, then (bn) → a.(d) If (an) → 0 and |bn − b| ≤ an for all n ∈ N, then (bn) → b.
+
+Exercise 2.3.11 (Cesaro Means). 
+(a) Show that if (xn) is a convergent sequence, then the sequence given by the averages yn = (x1 + x2 + · · · + xn)/n also converges to the same limit.(b) Give an example to show that it is possible for the sequence (yn) of averagesto converge even if (xn) does not.2.3.12
+determine whether a property possessed by every term in a convergent sequence is necessarily inherited by the limit.
+If every an is an upper bound for a set B, then a is also an upper bound for B.
+If every an is in the complement of the interval (0, 1), then a is also in the complement of (0, 1).
+If every an is in the complement of the interval (0, 1), then a is also in the complement of (0, 1).

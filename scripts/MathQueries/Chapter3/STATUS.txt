@@ -1,0 +1,3 @@
+Optimizations for part 4
+
+One of the optimizations we chose to do was to alternate between consumers and produces. We implement this by initially allowing consumers to request the lock. Once the consumer has finished it's pulling work, the lock is then available only to producers. In a system where we have many producers and consumers, this implementations would be more efficient as we would not waste time in a case where only consumers try to pull from an empty queue or producers keep trying to push into a full queue. Another implementation which increased our throughput significantly was yielding a thread if it is unable to perform it's required task. 

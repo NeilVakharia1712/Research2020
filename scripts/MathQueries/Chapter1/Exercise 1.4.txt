@@ -1,0 +1,29 @@
+Exercise 1.4
+
+Exercise 1.4.1. 
+Recall that I stands for the set of irrational numbers.(a) Show that if a, b ∈ Q, then ab and a + b are elements of Q as well.(b) Show that if a ∈ Q and t ∈ I, then a + t ∈ I and at ∈ I as long as a = 0.(c) Part (a) can be summarized by saying that Q is closed under addition andmultiplication. Is I closed under addition and multiplication? Given twoirrational numbers s and t, what can we say about s + t and st?
+
+Exercise 1.4.2. 
+Let A ⊆ R be nonempty and bounded above, and let s ∈ R have the property that for all n ∈ N, s + 1/n is an upper bound for A and s − 1/n is not an upper bound for A. Show s = supA.
+
+Exercise 1.4.3
+Prove that the intersection of (0,1/n) for all from n = 1 to inf is 0. Notice that this demonstrates that the intervals in the Nested Interval Property must be closed for the conclusion of the theorem to hold
+
+Exercise 1.4.4.
+Let a < b be real numbers and consider the set T = Q ∩ [a, b].Show sup T = b.
+
+Exercise 1.4.5.
+Given any two real numbers a < b, there exists an irrational number t satisfying a < t < b. supply a proof considering the real numbers a −√2 and b −√2.
+
+Exercise 1.4.6. (a) Is The set of all rational numbers p/q with q ≤ 10 dense in R.(b) Is The set of all rational numbers p/q with q a power of 2 dense in R.(c) Is The set of all rational numbers p/q with 10|p| ≥ q dense in R.
+
+Exercise 1.4.7.
+Prove the theorem There exists a real number α ∈ R satisfying α^2 = 2. by showing that the assumption α^2 > 2 leads to a contradiction of the fact that α = supT.
+
+Exercise 1.4.8 
+(a)Two sets A and B with A ∩ B = ∅, supA = supB, supA /∈ A and supB /∈ B. 
+(b)A sequence of nested open intervals J1 ⊇ J2 ⊇ J3 ⊇ · · · with  ∞ n=1 Jn nonempty but containing only a finite number of elements.
+(c) A sequence of nested unbounded closed intervals L1 ⊇ L2 ⊇ L3 ⊇ · · · with 	 ∞ n=1 Ln = ∅. (An unbounded closed interval has the form [a,∞) = {x ∈ R : x ≥ a}.)
+(d) A sequence of closed (not necessarily nested) intervals I1, I2, I3, . . . with the property that N n=1 In = ∅ for all N ∈ N, but ∞ n=1 In = ∅.
+
+8 problems

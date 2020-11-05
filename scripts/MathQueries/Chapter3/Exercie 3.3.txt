@@ -1,0 +1,40 @@
+Exercise 3.3
+
+Exercise 3.3.1
+Show that if K is compact and nonempty, then supK and inf K both exist and are elements of K.
+
+Exercise 3.3.2
+Decide which of the following sets are compact. For those that are not compact, show how Definition 3.3.1 breaks down. In other words, give an example of a sequence contained in the given set that does not possess a subsequence converging to a limit in the set.
+N.Q ∩ [0, 1].The Cantor set.{1 + 1/22 + 1/32 + · · · + 1/n2 : n ∈ N}.{1, 1/2, 2/3, 3/4, 4/5, . . .}.
+
+Exercise 3.3.3
+show that if a set K ⊆ R is closed and bounded, then it is compact.
+
+Exercise 3.3.4
+Assume K is compact and F is closed. Decide if the followingsets are definitely compact, definitely closed, both, or neither.K ∩ Fclosure(F' ∪ K')K\F = {x ∈ K : x /∈ F}closure(K ∩ F')
+
+Exercise 3.3.5
+Decide whether the following propositions are true or false. If the claim is valid, supply a short proof, and if the claim is false, provide a counterexample.The arbitrary intersection of compact sets is compact.The arbitrary union of compact sets is compact.Let A be arbitrary, and let K be compact. Then, the intersection A ∩ Kis compact.If F1 ⊇ F2 ⊇ F3 ⊇ F4 ⊇ · · · is a nested sequence of nonempty closed sets, then the intersection of Fn /= 0
+
+Exercise 3.3.6
+Every ___ set has a maximum.
+If A and B are ___, then A+B = {a+b : a ∈ A, b ∈ B} is also ___.
+If {An : n ∈ N} is a collection of ___ sets with the property that every finite subcollection has a nonempty intersection, then intersection An is nonempty as well.
+
+Exercise 3.3.8
+Let K and L be nonempty compact sets, and define d = inf{|x − y| : x ∈ K and y ∈ L}. This turns out to be a reasonable definition for the distance between K and L.(a) If K and L are disjoint, show d > 0 and that d = |x0−y0| for some x0 ∈ K and y0 ∈ L.(b) Show that it’s possible to have d = 0 if we assume only that the disjoint sets K and L are closed
+
+Exercise 3.3.9 
+Assume K satisfies (i) and (ii), and let {Oλ : λ ∈ Λ} be an open cover for K. For contradiction, let’s assume that no finite subcover exists. Let I0 be a closed interval containing K.(a) Show that there exists a nested sequence of closed intervals I0 ⊇ I1 ⊇ I2 ⊇· · · with the property that, for each n, In ∩ K cannot be finitely covered and lim |In| = 0.(b) Argue that there exists an x ∈ K such that x ∈ In for all n.(c) Because x ∈ K, there must exist an open set Oλ0 from the original collection that contains x as an element. Explain how this leads to the desired contradiction.
+
+Exercise 3.3.10
+Consider the special case where K is a closed interval. Let {Oλ : λ ∈ Λ} be an open cover for [a, b] and define S to be the set of all x ∈ [a, b] such that [a, x] has a finite subcover from {Oλ : λ ∈ Λ}.(a) Argue that S is nonempty and bounded, and thus s = supS exists.(b) Now show s = b, which implies [a, b] has a finite subcover.(c) Finally, prove the theorem for an arbitrary closed and bounded set K.
+
+Exercise 3.3.11 
+Consider each of the sets listed in Exercise 3.3.2. For each one that is not compact, find an open cover for which there is no finite subcover.
+
+Exercise 3.3.12
+Using the concept of open covers (and explicitly avoiding the Bolzano–Weierstrass Theorem), prove that every bounded infinite set has a limit point.
+
+Exercise 3.3.13
+Let’s call a set clompact if it has the property that every closed cover (i.e., a cover consisting of closed sets) admits a finite subcover. Describe all of the clompact subsets of R.

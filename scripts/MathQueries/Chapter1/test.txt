@@ -1,0 +1,2 @@
+Let A ⊆ R be nonempty and bounded above, and let s ∈ R have the property that for all n ∈ N, s + 1/n is an upper bound for A and s − 1/n is not an upper bound for A. Show s = supA.
+Prove that the intersection of (0,1/n) for all from n = 1 to inf is 0. Notice that this demonstrates that the intervals in the Nested Interval Property must be closed for the conclusion of the theorem to hold

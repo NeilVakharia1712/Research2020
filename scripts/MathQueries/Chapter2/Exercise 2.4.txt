@@ -1,0 +1,29 @@
+Exercise 2.4
+
+Exercise 2.4.1
+Prove that the sequence defined by x1 = 3 and xn+1 =1/4 − xn converges
+Now that we know lim xn exists, explain why lim xn+1 must also exist and equal the same value.
+Take the limit of each side of the recursive equation in part (a) to explicitly compute lim xn.
+
+Exercise 2.4.3
+Show that sqrt(2), sqrt(2 * sqrt(2)), sqrt(2*sqrt(2*sqrt(2))) converges and find the limit.
+Does the sequence sqrt(2), sqrt(2 * sqrt(2)), sqrt(2*sqrt(2*sqrt(2))) converge? If so find the limit
+
+Exercise 2.4.4
+Show that the Monotone Convergence Theorem can also be used to prove the Archimedean Property without making any use of Axiom Of Completeness
+Use the Monotone Convergence Theorem to supply a proof for the Nested Interval Property that doesn’t make use of Axiom Of Completeness.
+
+Exercise 2.4.5
+
+Let x1 = 2 and define x(n+1) = 1/2 * (xn + 2/xn). Show that (xn)^2 n is always greater than or equal to 2, and then use this to prove that xn − xn+1 ≥ 0. Conclude that lim xn =sqrt(2).
+Let x1 = 2 and define x(n+1) = 1/2 * (xn + 2/xn). Modify the sequence (xn) so that it converges to sqrt(c).
+
+Exercise 2.4.6 (Arithmetic–Geometric Mean).
+Explain whysqrt(xy) ≤ (x+y)/2 for any two positive real numbers x and y. (The geometric mean is always less than the arithmetic mean.)Now let 0 ≤ x1 ≤ y1 and define xn+1 = sqrt(xnyn) and yn+1 = (xn + yn)/2 Show lim xn and lim yn both exist and are equal.
+
+Exercise 2.4.7
+Let (an) be a bounded sequence. Prove that the sequence defined by yn = sup{ak : k ≥ n} converges.The limit superior of (an), or lim sup an, is defined by lim sup an = lim yn, where yn is the sequence from part (a) of this exercise. Provide a reasonable definition for lim inf an and briefly explain why it always exists for any bounded sequence.Let (an) be a bounded sequence. Prove that lim inf an ≤ lim sup an for every bounded sequence, and give an example of a sequence for which the inequality is strict.Let (an) be a bounded sequence. Show that lim inf an = lim sup an if and only if lim an exists. In this case, all three share the same value.
+
+
+
+

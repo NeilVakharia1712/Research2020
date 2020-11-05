@@ -1,0 +1,24 @@
+Exercise 2.2
+
+Exercise 2.2.1. 
+What happens if we reverse the order of the quantifiers in Definition of convergence of a sequence. Give an example of a vercongent sequence. Is there an example of a vercongent sequence that is divergent? Can a sequence verconge to two different values? What exactly is being described in this strange definition?
+
+Exercise 2.2.2. Verify, using the definition of convergence of a sequence, thatthe following sequences converge to the proposed limit.(a) lim (2n+1)/(5n+4) = 2/5(b) lim 2n^2/n^3+3 = 0(c) lim sin(n2)/3√n = 0
+
+Exercise 2.2.3. 
+Describe what we would have to demonstrate in order to disprove each of the following statements.(a) At every college in the United States, there is a student who is at least seven feet tall.(b) For all colleges in the United States, there exists a professor who gives every student a grade of either A or B.(c) There exists a college in the United States where every student is at least six feet tall.
+
+Exercise 2.2.4. 
+Give an example of each or state that the request is impossible. For any that are impossible, give a compelling argument for why that is the case.(a) Is there a sequence with an infinite number of ones that does not converge to one
+(b) A sequence with an infinite number of ones that converges to a limit not equal to one.
+(c) A divergent sequence such that for every n ∈ N it is possible to find nconsecutive ones somewhere in the sequence.
+
+Exercise 2.2.5. 
+Let [[x]] be the greatest integer less than or equal to x. Forexample, [[π]] = 3 and [[3]] = 3. For each sequence, find lim an and verify itwith the definition of convergence.(a) an = [[5/n]],(b) an = [[(12 + 4n)/3n]].
+
+Exercise 2.2.6
+Prove that The limit of a sequence, when it exists, must be unique.
+
+Exercise 2.2.7
+(a) Is the sequence (−1)^n eventually or frequently in the set {1}?(b) Which definition is stronger? Does frequently imply eventually or does eventually imply frequently?(c) Give an alternate rephrasing of Definition 2.2.3B using either frequently or eventually. Which is the term we want?(d) Suppose an infinite number of terms of a sequence (xn) are equal to 2. Is (xn) necessarily eventually in the interval (1.9, 2.1)? Is it frequently in (1.9, 2.1)?Exercise 2.2.8. 
+(a) Is the sequence (0, 1, 0, 1, 0, 1, . . .) zero heavy?(b) If a sequence is zero-heavy does it necessarily contain an infinite number of zeros? If not, provide a counterexample.(c) If a sequence contains an infinite number of zeros, is it necessarily zero heavy? If not, provide a counterexample.(d) Form the logical negation of the above definition. That is, complete thesentence: A sequence is not zero-heavy if . . . .

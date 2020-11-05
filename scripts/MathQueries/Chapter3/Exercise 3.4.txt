@@ -1,0 +1,23 @@
+Exercise 3.4
+
+Exercise 3.4.1. 
+If P is a perfect set and K is compact, is the intersection P ∩ K always compact? Always perfect?
+
+Exercise 3.4.2. 
+Does there exist a perfect set consisting of only rational numbers?
+
+Exercise 3.4.3Because x ∈ C1, argue that there exists an x1 ∈ C ∩ C1 with x1 = xsatisfying |x − x1| ≤ 1/3. Finish the proof by showing that for each n ∈ N, there exists xn ∈ C n Cn, different from x, satisfying |x − xn| ≤ 1/3^n.
+
+Exercise 3.4.4. 
+Repeat the Cantor construction from Section 3.1 starting with the interval [0, 1]. This time, however, remove the open middle fourth from each component. (a) Is the resulting set compact? Perfect? (b) Using the algorithms from Section 3.1, compute the length and dimension of this Cantor-like set.
+
+Exercise 3.4.5. 
+Let A and B be nonempty subsets of R. Show that if there exist disjoint open sets U and V with A ⊆ U and B ⊆ V , then A and B are separated.
+
+Exercise 3.4.6
+Prove that set E ⊆ R is connected if and only if, for all nonempty disjoint sets A and B satisfying E = A ∪ B, there always exists a convergent sequence (xn) → x with (xn) contained in one of A or B, and x an element of the other.
+
+Exercise 3.4.7. A set E is totally disconnected if, given any two distinct points x, y ∈ E, there exist separated sets A and B with x ∈ A, y ∈ B, and E = A∪B. (a) Show that Q is totally disconnected.Is the set of irrational numbers totally disconnected?
+
+Exercise 3.4.8
+Let C = intersection Cn. Given x, y ∈ C, with x < y, set  = y − x. For each n = 0, 1, 2, . . ., the set Cn consists of a finite number of closed intervals. Explain why there must exist an N large enough so that it is impossible for x and y both to belong to the same closed interval of CN.(b) Show that C is totally disconnected.
