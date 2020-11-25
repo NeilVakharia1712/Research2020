@@ -23,6 +23,8 @@ def getQueries():
     from os import listdir
     from os.path import isfile, join
     onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
+    print(onlyfiles)
+    return
     for k in range(12, len(onlyfiles)):
         file = onlyfiles[k]
         file_path = path + '/' + file
